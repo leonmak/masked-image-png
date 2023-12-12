@@ -1,12 +1,13 @@
 {
   "name": "masked-inpaint-png",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "React component to export RGBA PNG using alpha channel preserving RGB data",
   "homepage": "https://github.com/leonmak/masked-image-png",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf dist; tsc; rm dist/tsconfig.tsbuildinfo;"
+    "build:styles": "postcss src/styles.css -o dist/styles.css",
+    "build": "rm -rf dist; tsc;"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,8 +24,8 @@
   "dependencies": {
     "clsx": "^2.0.0",
     "pngjs": "^7.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18",
+    "react-dom": "^18",
     "react-sketch-canvas": "^6.2.0"
   },
   "files": [

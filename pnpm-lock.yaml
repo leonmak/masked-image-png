@@ -12,10 +12,10 @@ dependencies:
     specifier: ^7.0.0
     version: 7.0.0
   react:
-    specifier: ^18.2.0
+    specifier: ^18
     version: 18.2.0
   react-dom:
-    specifier: ^18.2.0
+    specifier: ^18
     version: 18.2.0(react@18.2.0)
   react-sketch-canvas:
     specifier: ^6.2.0
