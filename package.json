@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": false,
   "description": "React component to export RGBA PNG using alpha channel preserving RGB data",
-  "homepage": "https://github.com/leonmak/masked-inpaint-png",
+  "homepage": "https://github.com/leonmak/masked-image-png",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
