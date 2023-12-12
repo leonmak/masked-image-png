@@ -1,4 +1,3 @@
 import MaskedImageInput from "./components/MaskedImageInput";
 
-export { MaskedImageInput };
-export default MaskedImageInput;
+export { MaskedImageInput as default };
